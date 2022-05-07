@@ -1,8 +1,7 @@
 // 10進法を2進法に変換するプログラム
-
 import java.util.*;
 
-public class Code_2_01_4 {
+class Code_2_01_4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt(); // 入力部分

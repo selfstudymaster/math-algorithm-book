@@ -1,7 +1,7 @@
 // 3つの整数の合計を出力するプログラム
 import java.util.*;
 
-public class Code_2_01_2 {
+class Code_2_01_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] A = new int[4];

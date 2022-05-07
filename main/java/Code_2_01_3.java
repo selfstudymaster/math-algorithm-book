@@ -1,7 +1,7 @@
 // N個の整数の合計を出力するプログラム
 import java.util.*;
 
-public class Code_2_01_3 {
+class Code_2_01_3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
