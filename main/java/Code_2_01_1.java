@@ -1,3 +1,5 @@
+// みかんとりんごの合計個数を出力するプログラム
+
 import java.util.*;
 public class Code_2_01_1 {
     public static void main(String[] args) {
