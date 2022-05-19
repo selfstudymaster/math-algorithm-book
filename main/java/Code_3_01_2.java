@@ -14,8 +14,10 @@ class Code_3_01_2 {
         }
     }
 
+    // 素数か素数でないかを判定するメソッド
     static boolean isPrime(long N) {
         // 2 以上の整数 N に対し、N が素数であれば true、素数でなければ false を戻す
+        // N を 2から√Nまでの値で割った余りが0ならば、Nは素数ではない。i * i <= N は、i <= √N を表している
         for (long i = 2; i * i <= N; i++) {
             if (N % i == 0) {
                 return false;
