@@ -15,7 +15,7 @@ class Code_3_05_1 {
             // 原点からの距離は sqrt(px * px + py * py)
             // これが 1 以下であれば良いので、条件は「px * px + py * py <= 1」（「sqrt(px * px + py * py) <= 1」と同値）
             if (px * px + py * py <= 1.0) {
-                M==;
+                M++;
             }
         }
         System.out.format("%.12f\n", 4.0 * M / N);
