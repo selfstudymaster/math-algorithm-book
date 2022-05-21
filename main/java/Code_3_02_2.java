@@ -9,6 +9,7 @@ public class Code_3_02_2 {
         System.out.println(GCD(A, B));
     }
 
+    // AとBの最大公約数を求める
     static long GCD(long A, long B) {
         // 正の整数 A と B の最大公約数を戻す関数
         // GDC は Great Common Divisor(最大公約数)の略
